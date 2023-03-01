@@ -56,7 +56,7 @@ while attempt < 6:
     else:
         print("ONLY RANGE OF 1-100!")
 
-# If our user is out of attempts ( which means he no longer will see the input part ) we r gonna say 'sorry u r out of attmepts'
+# If our user is out of attempts ( which means he will no longer see the input part ) we r gonna say 'sorry u r out of attmepts'
 else:
     print("Game Over! Out of attempts!")
     print(f"The number was : {number_to_guess}")
