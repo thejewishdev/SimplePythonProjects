@@ -1,0 +1,16 @@
+# Create contact book
+contact_book = {
+    "Kevin": "098276374",
+    "Maria": "098765534",
+    "Ben" : "0986565479"
+}
+
+
+# Take search input ( search number by name)
+search = input("Enter name : ")
+
+# Check if our contact book has needed information
+if search in contact_book:
+    print(f"{search}'s number is : {contact_book[search]}")
+else:
+    print("No contacts found!")
